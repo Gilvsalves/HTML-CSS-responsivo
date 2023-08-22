@@ -1,0 +1,76 @@
+body{
+    background-color:#adf5ad;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header{
+    background-color:#62d462;
+    padding: 20px;
+    margin: 0%;
+    box-shadow: 0px -5px 45px black;
+}
+header>h1{
+    text-align: center;
+}
+header>h2{
+    text-align: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav> a:hover{
+    text-decoration: underline;
+    
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto auto 3% auto;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div.vid{
+    background-color: rgb(41, 106, 41);
+    margin: 0px -10px 30px -10px;
+    padding-bottom: 58.1%;
+    position: relative;
+
+}
+
+div.vid > iframe{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
+
+main img{
+    width: 100%;
+}
+.droid{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+ul{
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:1px;
+    margin: 0px;
+}
